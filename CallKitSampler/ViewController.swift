@@ -1,20 +1,16 @@
-//
-//  ViewController.swift
-//  CallKitSampler
-//
-//  Created by Fumiya Tanaka on 2019/05/07.
-//  Copyright © 2019 Fumiya Tanaka. All rights reserved.
-//
-
 import UIKit
+import CallKit
 
 class ViewController: UIViewController {
 
+    var callKitController = CallKitController(provider: CXProvider(configuration: CXProviderConfiguration(localizedName: "CallKitSampler")))
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    
+    @IBAction func didTapCallButton() {
+        
+    }
 }
 
