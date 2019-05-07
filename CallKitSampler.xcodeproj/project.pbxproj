@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		D3467FE62280B2C50027F611 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3467FE52280B2C50027F611 /* AppDelegate.swift */; };
 		D3467FE82280B2C50027F611 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3467FE72280B2C50027F611 /* ViewController.swift */; };
-		D3467FEB2280B2C50027F611 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3467FE92280B2C50027F611 /* Main.storyboard */; };
+		D3467FEB2280B2C50027F611 /* ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3467FE92280B2C50027F611 /* ViewController.storyboard */; };
 		D3467FED2280B2C70027F611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3467FEC2280B2C70027F611 /* Assets.xcassets */; };
 		D3467FF02280B2C70027F611 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3467FEE2280B2C70027F611 /* LaunchScreen.storyboard */; };
 		D3467FF92280B3B90027F611 /* CallKitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3467FF82280B3B90027F611 /* CallKitController.swift */; };
@@ -19,7 +19,7 @@
 		D3467FE22280B2C50027F611 /* CallKitSampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallKitSampler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3467FE52280B2C50027F611 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3467FE72280B2C50027F611 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D3467FEA2280B2C50027F611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3467FEA2280B2C50027F611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ViewController.storyboard; sourceTree = "<group>"; };
 		D3467FEC2280B2C70027F611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3467FEF2280B2C70027F611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3467FF12280B2C70027F611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,13 +58,13 @@
 			isa = PBXGroup;
 			children = (
 				D3467FF72280B3480027F611 /* CallKitSampler.entitlements */,
+				D3467FF12280B2C70027F611 /* Info.plist */,
 				D3467FE52280B2C50027F611 /* AppDelegate.swift */,
+				D3467FF82280B3B90027F611 /* CallKitController.swift */,
 				D3467FE72280B2C50027F611 /* ViewController.swift */,
-				D3467FE92280B2C50027F611 /* Main.storyboard */,
 				D3467FEC2280B2C70027F611 /* Assets.xcassets */,
 				D3467FEE2280B2C70027F611 /* LaunchScreen.storyboard */,
-				D3467FF12280B2C70027F611 /* Info.plist */,
-				D3467FF82280B3B90027F611 /* CallKitController.swift */,
+				D3467FE92280B2C50027F611 /* ViewController.storyboard */,
 			);
 			path = CallKitSampler;
 			sourceTree = "<group>";
@@ -137,7 +137,7 @@
 			files = (
 				D3467FF02280B2C70027F611 /* LaunchScreen.storyboard in Resources */,
 				D3467FED2280B2C70027F611 /* Assets.xcassets in Resources */,
-				D3467FEB2280B2C50027F611 /* Main.storyboard in Resources */,
+				D3467FEB2280B2C50027F611 /* ViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,12 +157,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D3467FE92280B2C50027F611 /* Main.storyboard */ = {
+		D3467FE92280B2C50027F611 /* ViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D3467FEA2280B2C50027F611 /* Base */,
 			);
-			name = Main.storyboard;
+			name = ViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		D3467FEE2280B2C70027F611 /* LaunchScreen.storyboard */ = {
@@ -300,6 +300,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2X6AD4W323;
 				INFOPLIST_FILE = CallKitSampler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,6 +320,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2X6AD4W323;
 				INFOPLIST_FILE = CallKitSampler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
