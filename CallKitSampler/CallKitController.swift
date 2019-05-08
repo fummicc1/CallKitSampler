@@ -21,6 +21,10 @@ class CallKitController: NSObject {
             }
         }
     }
+    
+    func didRecievencomingPush() {
+        
+    }
 }
 
 extension CallKitController: CXProviderDelegate {

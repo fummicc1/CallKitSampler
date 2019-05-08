@@ -13,6 +13,7 @@
 		D3467FED2280B2C70027F611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3467FEC2280B2C70027F611 /* Assets.xcassets */; };
 		D3467FF02280B2C70027F611 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3467FEE2280B2C70027F611 /* LaunchScreen.storyboard */; };
 		D3467FF92280B3B90027F611 /* CallKitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3467FF82280B3B90027F611 /* CallKitController.swift */; };
+		D39FD82922826B0D00DA2338 /* PushKitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39FD82822826B0D00DA2338 /* PushKitController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		D3467FF12280B2C70027F611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3467FF72280B3480027F611 /* CallKitSampler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CallKitSampler.entitlements; sourceTree = "<group>"; };
 		D3467FF82280B3B90027F611 /* CallKitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallKitController.swift; sourceTree = "<group>"; };
+		D39FD82822826B0D00DA2338 /* PushKitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushKitController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				D3467FF12280B2C70027F611 /* Info.plist */,
 				D3467FE52280B2C50027F611 /* AppDelegate.swift */,
 				D3467FF82280B3B90027F611 /* CallKitController.swift */,
+				D39FD82822826B0D00DA2338 /* PushKitController.swift */,
 				D3467FE72280B2C50027F611 /* ViewController.swift */,
 				D3467FEC2280B2C70027F611 /* Assets.xcassets */,
 				D3467FEE2280B2C70027F611 /* LaunchScreen.storyboard */,
@@ -150,6 +153,7 @@
 			files = (
 				D3467FE82280B2C50027F611 /* ViewController.swift in Sources */,
 				D3467FF92280B3B90027F611 /* CallKitController.swift in Sources */,
+				D39FD82922826B0D00DA2338 /* PushKitController.swift in Sources */,
 				D3467FE62280B2C50027F611 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
