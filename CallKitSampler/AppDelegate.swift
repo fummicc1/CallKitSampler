@@ -15,10 +15,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         guard let viewController = UIStoryboard(name: "ViewController", bundle: nil).instantiateInitialViewController() else { return true }
+        VoipController.shared.initialSetup()
+        VoipController.shared.setDelegate()
         window = UIWindow()
         window?.rootViewController = viewController
         window?.makeKeyAndVisible()
         return true
     }
 }
+
 

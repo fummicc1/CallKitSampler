@@ -1,5 +1,4 @@
 import UIKit
-import CallKit
 
 class ViewController: UIViewController {
 
@@ -9,16 +8,13 @@ class ViewController: UIViewController {
         }
     }
     
-    let callKitController = CallKitController()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        callKitController.setDelegate()
     }
     
     @IBAction func didTapCallButton() {
         let myName = myNameTextField.text ?? ""
-        callKitController.startCall(myName: myName)
+        VoipController.shared.startCall(myName: myName)
     }
 }
 
